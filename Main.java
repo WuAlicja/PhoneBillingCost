@@ -11,8 +11,10 @@ public class Main {
         printDashes();
         System.out.println("PHONE BILLING MANIPULATOR");
         printDashes();
+
         int myShortCallPrice=3;
         int myLongCallPrice=150;
+        
         List<List<String>> billing = getBilling();
 
         getBillingWithoutMostFrequentPhoneNumber(billing);
